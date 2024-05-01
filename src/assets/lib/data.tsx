@@ -28,6 +28,17 @@ import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
 import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
+import gitLab from "../../assets/icons/git-lab-svgrepo-com.svg";
+import python from "../../assets/icons/python-svgrepo-com.svg";
+import pandas from "../../assets/icons/pandas-svgrepo-com.svg";
+import numpy from "../../assets/icons/numpy-svgrepo-com.svg";
+import sikitlearn from "../../assets/icons/scikit-learn.svg";
+import teamviewer from "../../assets/icons/teamviewer-svgrepo-com.svg";
+import vscode from "../../assets/icons/vs-code-svgrepo-com.svg";
+import visualstudio from "../../assets/icons/visual-studio-svgrepo-com.svg";
+import colab from "../../assets/icons/Google_Colaboratory_SVG_Logo.svg"
+import jup from "../../assets/icons/Jupyter_logo.svg";
+import github from "../../assets/icons/github-142-svgrepo-com.svg";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLink, FiLinkedin, FiMail } from "react-icons/fi";
 import Imprint from "../../components/Imprint";
@@ -237,41 +248,41 @@ export const skillsDataWeb = [
 
 export const skillsDataDesign = [
   {
-    skillsTitle: "Design",
+    skillsTitle: "Environment",
     skills: [
-      { title: "Figma", hash: "#Figma", icon: figmaicon, color: "#F24E1E" },
+      { title: "Visual Studio", hash: "#Visual Studio", icon: visualstudio, color: "#c44dff" },
       {
-        title: "Adobe XD",
-        hash: "#Adobe XD",
-        icon: adobexdicon,
-        color: "#FF61F6",
+        title: "VS Code",
+        hash: "#VS Code",
+        icon: vscode,
+        color: "#4d94ff",
       },
-      { title: "Canva", hash: "#Canva", icon: canvaicon, color: "#00C4CC" },
+      { title: "Jupyter Notebook", hash: "#Jupyter Notebook", icon: jup, color: "#e68a00" },
     ],
   },
 ] as const;
 
 export const skillsDataCMS = [
   {
-    skillsTitle: "CMS",
+    skillsTitle: "Data Science",
     skills: [
       {
-        title: "WordPress",
-        hash: "#WordPress",
-        icon: wordpressicon,
+        title: "Python",
+        hash: "#Python",
+        icon: python,
         color: "#21759B",
       },
       {
-        title: "Shopify",
+        title: "Pandas",
         hash: "#Shopify",
-        icon: shopifyicon,
-        color: "#7AB55C",
+        icon: pandas,
+        color: "#001a33",
       },
       {
-        title: "Webflow",
-        hash: "#Webflow",
-        icon: webflowicon,
-        color: "#4353FF",
+        title: "Numpy",
+        hash: "#Numpy",
+        icon: numpy,
+        color: "#33adff",
       },
     ],
   },
