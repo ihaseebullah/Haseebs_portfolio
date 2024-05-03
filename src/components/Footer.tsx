@@ -7,6 +7,7 @@ import { useTheme } from "../context/theme-context";
 
 import Popup from "reactjs-popup";
 import { VscChromeClose } from "react-icons/vsc";
+import Imprint from "./Imprint";
 const LazyServiceStatus = lazy(() => import("../components/ServiceStatus"));
 
 interface SocialLink {
@@ -87,6 +88,8 @@ const Footer: React.FC = () => {
           </Link>
         ))}
       </div>
+      <Imprint />
+
       <div>
         <Suspense fallback={<div>Loading...</div>}>
           <LazyServiceStatus />

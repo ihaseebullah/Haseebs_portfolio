@@ -14,6 +14,10 @@ const Imprint = () => {
       ) : (
         <article className="flex flex-col gap-6 max-w-[70vw]">
           <h1>Site Notice</h1>
+          <p style={{ fontSize: "1.2rem" }}>
+            I am using this portfolio template designed by Alpay
+            Ceilk.Check out his github repo.
+          </p>
         </article>
       )}
     </React.Fragment>
